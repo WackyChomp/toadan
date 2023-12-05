@@ -1,6 +1,11 @@
 import { createContext, useState, useMemo } from 'react';
 import { createTheme } from '@mui/material/styles';
 
+/*
+Purpose: Toggle bewtween light and dark mode
+Note: might scrap
+*/
+
 export const token = (mode) => ({
   ...black(mode === 'dark'
     ? {
@@ -123,3 +128,78 @@ export const token = (mode) => ({
   )
 
 });
+
+
+/* ---------MUI Theme Settings--------- */
+export const themeSettings = (mode) => {
+  const colors = tokens(mode);
+  
+  return{
+    palette: {
+      mode: mode,
+        ...(mode === 'dark'
+          ?{
+            /* dark mode */
+            primary:{
+              main: colors.primary[500],
+            },
+            secondary:{
+              main: colors.secondary[500],
+            },
+            neutral:{
+              dark: colors.grey[700],
+              main: colors.grey[500],
+              light: colors.grey[100],
+            },
+            background: {
+              default: colors.primary[500],
+            }
+          }: {
+            /* light mode */
+            primary:{
+              main: colors.primary[100],
+            },
+            secondary:{
+              main: colors.secondary[500],
+            },
+            neutral:{
+              dark: colors.grey[700],
+              main: colors.grey[500],
+              light: colors.grey[100],
+            },
+            background: {
+              default: colors.grey[300],
+            }
+          }),
+    },
+
+    typography:{
+      fontFamily: ['Roboto', 'sans-serif'].join(','),
+      fontSize: 12,
+      h1:{
+        fontFamily: ['Roboto', 'sans-serif'].join(','),
+        fontSize: 80,     // 40
+      }
+    }
+  }
+}
+
+
+/* ---------React Context : color mode --------- */
+export const ColorModeContext = createContext({
+  toggleColorMode: () => {}
+})
+
+export const useMode = () => {
+  const [mode, setMode] = useState('dark');
+
+  const colorMode = useMemo(
+    () => ({
+      toggleColorMode: () => setMode((prev) => (prev === 'light'?'dark' : 'light')),
+    }), []
+  );
+
+  const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
+
+  return [theme, colorMode];
+}
