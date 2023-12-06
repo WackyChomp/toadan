@@ -4,7 +4,6 @@
 
 npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom@6 react-pro-sidebar formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
 
-
 -->
 
 <!-- PROJECT LOGO -->
@@ -43,6 +42,24 @@ Here are some frameworks/libraries used in this project:
 
 - [] Establish dashboard layout
 - [] Ability to toggle between light and dark mode
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+List of wonderful resources and credits to: 
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Font Awesome](https://fontawesome.com)
+* [Badge Shield](https://dev.to/envoy_/150-badges-for-github-pnk)
+<br><br>
+* [Material-UI](https://mui.com/material-ui/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Full Calendar](https://fullcalendar.io/docs)
+* [Nivo](https://nivo.rocks/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES
