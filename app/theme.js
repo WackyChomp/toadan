@@ -6,8 +6,8 @@ Purpose: Toggle bewtween light and dark mode
 Note: might scrap
 */
 
-export const token = (mode) => ({
-  ...black(mode === 'dark'
+export const tokens = (mode) => ({
+  ...(mode === 'dark'
     ? {
       
       grey: {             // indigo
