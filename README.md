@@ -27,8 +27,37 @@ npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/i
   </p>
 </div>
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites-installation">Prerequisites / Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+<br><br>
+
+Looking to better understand, visualize, and communicate your data with others or personal enrichment?
+
+The amount of raw data collected on a daily basis can be intimidating for some.
 
 
+## Built With
 Here are some frameworks/libraries used in this project:
 * [![TypeScript][TypeScript]][TypeScript-url]
 * [![Tailwind][Tailwind.css]][Tailwind-url]
@@ -39,9 +68,12 @@ Here are some frameworks/libraries used in this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Roadmap
+<h3>Features (WIP)</h3>
 
 - [] Establish dashboard layout
 - [] Ability to toggle between light and dark mode
+- [] Create FAQ for brief description and common inquiries
 
 
 
@@ -55,9 +87,9 @@ List of wonderful resources and credits to:
 * [Badge Shield](https://dev.to/envoy_/150-badges-for-github-pnk)
 <br><br>
 * [Material-UI](https://mui.com/material-ui/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Full Calendar](https://fullcalendar.io/docs)
-* [Nivo](https://nivo.rocks/)
+* [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+* [Full Calendar](https://fullcalendar.io/docs) - lightweight calendar
+* [Nivo](https://nivo.rocks/) - data visualization components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
