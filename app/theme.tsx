@@ -6,7 +6,7 @@ Purpose: Toggle bewtween light and dark mode
 Note: might scrap
 */
 
-export const tokens = (mode) => ({
+export const tokens = (mode: string) => ({
   ...(mode === 'dark'
     ? {
       
@@ -131,7 +131,7 @@ export const tokens = (mode) => ({
 
 
 /* ---------MUI Theme Settings--------- */
-export const themeSettings = (mode) => {
+export const themeSettings = (mode: string) => {
   const colors = tokens(mode);
   
   return{
@@ -144,7 +144,7 @@ export const themeSettings = (mode) => {
               main: colors.primary[500],
             },
             secondary:{
-              main: colors.secondary[500],
+              main: colors.redAccent[500],
             },
             neutral:{
               dark: colors.grey[700],
@@ -160,7 +160,7 @@ export const themeSettings = (mode) => {
               main: colors.primary[100],
             },
             secondary:{
-              main: colors.secondary[500],
+              main: colors.redAccent[500],
             },
             neutral:{
               dark: colors.grey[700],

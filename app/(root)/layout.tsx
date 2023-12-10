@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../globals.css'
 
-import { ColorModeContext, useMode } from '../theme'
+// import { ColorModeContext, useMode } from '../theme'
 
 import Topbar from '@/components/global/Topbar'
 import LeftSidebar from '@/components/global/LeftSidebar'
-import { CssBaseline, ThemeProvider } from '@mui/material'
+
+// import { CssBaseline, ThemeProvider } from '@mui/material'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,20 +21,17 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const [theme, colorMode] = useMode();
+  
+  // const [theme, colorMode] = useMode();
 
   return (
-    <ColorModeContext.Provider value={colorMode}>
-    <ThemeProvider theme={theme}>
-      
-    <CssBaseline />
 
     <html lang="en">
       <body className={inter.className}>
 
         <Topbar />
 
-        <main>
+        <main className='bg-yellow-300'>
 
           <LeftSidebar />
           
@@ -45,7 +43,5 @@ export default function RootLayout({
 
       </body>
     </html>
-    </ThemeProvider>
-    </ColorModeContext.Provider>
   )
 }
