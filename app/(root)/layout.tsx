@@ -31,14 +31,12 @@ export default function RootLayout({
 
         <Topbar />
 
-        <main className='bg-yellow-300'>
+        <LeftSidebar />
 
-          <LeftSidebar />
-          
+        <main className='bg-yellow-300 main-container'>
           <section>
             {children}
           </section>
-
         </main>
 
       </body>

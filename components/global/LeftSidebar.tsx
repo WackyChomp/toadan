@@ -27,13 +27,12 @@ import Home from '@/app/(root)/page';
 
 type ItemProps ={
   title: string;
-  to: string;
   icon: any;
   selected: string;
   setSelected: any;
 }
 
-const Item = ({ title, to, icon, selected, setSelected } : ItemProps) => {
+const Item = ({ title, icon, selected, setSelected } : ItemProps) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode)
   return(
@@ -44,7 +43,7 @@ const Item = ({ title, to, icon, selected, setSelected } : ItemProps) => {
       icon={icon}
     >
       <Typography>{title}</Typography>
-      <Link to={to} />
+
     </MenuItem>
   )
 }
@@ -83,7 +82,7 @@ const LeftSidebar = (props: Props) => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h3" className='text-orange-700'>
+                <Typography variant="h5" className='text-orange-700'>
                   Admin
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
@@ -106,14 +105,14 @@ const LeftSidebar = (props: Props) => {
               </Box>
               <Box textAlign="center">
                 <Typography
-                  variant="h4"
+                  variant="h5"
                   color={colors.grey[300]}
                   fontWeight="bold"
                   sx={{ mt: "7px" }}
                 >
                   Jacob Shire
                 </Typography>
-                <Typography variant="h5" color={colors.greenAccent[300]}>
+                <Typography variant="h6" color={colors.greenAccent[300]}>
                   Director of Forestry
                 </Typography>
               </Box>
@@ -121,7 +120,7 @@ const LeftSidebar = (props: Props) => {
           )}
 
           {/* Menu Items */}
-          <Box display='flex' justifyContent="center" alignItems="center">
+          <Box paddingLeft={ isCollapsed ? undefined :'6%' }>
             <HomeOutlinedIcon />
             <PeopleOutlinedIcon />
             <ContactsOutlinedIcon />
@@ -131,6 +130,93 @@ const LeftSidebar = (props: Props) => {
             <BarChartOutlinedIcon />
             <TimelineOutlinedIcon />
             <MapOutlinedIcon />
+
+            <Typography className='text-blue-500 border border-lime-600'>
+              Business
+            </Typography>
+            <Item 
+              title='Dashboard'
+              icon={<HomeOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='Team Management'
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='Contacts'
+              icon={<ContactsOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='Invoices & Balances'
+              icon={<ReceiptOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
+            <Typography className='text-blue-500 border border-lime-600'>
+              Apps
+            </Typography>
+            <Item 
+              title='Profile'
+              icon={<PersonOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='Calendar'
+              icon={<CalendarTodayOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='FAQ Page'
+              icon={<HelpOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            
+            <Typography className='text-blue-500 border border-lime-600'>
+              Data Visualization
+            </Typography>
+            <Item 
+              title='Bar Chart'
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='Pie Chart'
+              icon={<PieChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='Line Chart'
+              icon={<TimelineOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item 
+              title='Geography Chart'
+              icon={<MapOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
+            {/* <Item 
+              title='Dashboard'
+              to='/dashboard'
+              icon={<HomeOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            /> */}
+
           </Box>
 
         </Menu>
