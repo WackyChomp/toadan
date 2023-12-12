@@ -29,16 +29,21 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
 
-        <Topbar />
+        <div className="app">
+          <LeftSidebar />
 
-        <LeftSidebar />
+          <div className="content">
 
-        <main className='bg-yellow-300 main-container'>
-          <section>
-            {children}
-          </section>
-        </main>
+            <Topbar />
+            
+            <main className='bg-yellow-300'>
+              <section>
+                {children}
+              </section>
+            </main>
 
+          </div>   
+        </div>
       </body>
     </html>
   )
