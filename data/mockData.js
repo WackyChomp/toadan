@@ -8,7 +8,8 @@ export const mockDataTeam =[
   "age": 38,
   "phone": "916-566-1691",
   "role": "Payment Adjustment Coordinator",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 2,
   "name": "Emmerich",
@@ -16,7 +17,8 @@ export const mockDataTeam =[
   "age": 51,
   "phone": "408-341-9811",
   "role": "Operator",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 3,
   "name": "Dyanna",
@@ -24,7 +26,8 @@ export const mockDataTeam =[
   "age": 63,
   "phone": "316-598-3598",
   "role": "Graphic Designer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 4,
   "name": "Luis",
@@ -32,7 +35,8 @@ export const mockDataTeam =[
   "age": 52,
   "phone": "916-476-8745",
   "role": "Professor",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 5,
   "name": "Silvia",
@@ -40,7 +44,8 @@ export const mockDataTeam =[
   "age": 34,
   "phone": "573-510-7725",
   "role": "Help Desk Technician",
-  "location": "United States"
+  "location": "United States",
+  'access': 'admin',
 }, {
   "id": 6,
   "name": "Karlen",
@@ -48,7 +53,8 @@ export const mockDataTeam =[
   "age": 22,
   "phone": "212-727-2038",
   "role": "VP Sales",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 7,
   "name": "Gilbert",
@@ -56,7 +62,8 @@ export const mockDataTeam =[
   "age": 50,
   "phone": "626-279-7407",
   "role": "Desktop Support Technician",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 8,
   "name": "Jonell",
@@ -64,7 +71,8 @@ export const mockDataTeam =[
   "age": 18,
   "phone": "360-664-8498",
   "role": "Programmer Analyst II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 9,
   "name": "Josefa",
@@ -72,7 +80,8 @@ export const mockDataTeam =[
   "age": 46,
   "phone": "215-546-6292",
   "role": "Nuclear Power Engineer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'admin',
 }, {
   "id": 10,
   "name": "Alfy",
@@ -80,7 +89,8 @@ export const mockDataTeam =[
   "age": 22,
   "phone": "865-934-8134",
   "role": "Technical Writer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 11,
   "name": "Maximilianus",
@@ -88,7 +98,8 @@ export const mockDataTeam =[
   "age": 50,
   "phone": "202-223-2411",
   "role": "Account Executive",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 12,
   "name": "Salome",
@@ -96,7 +107,8 @@ export const mockDataTeam =[
   "age": 38,
   "phone": "718-916-2563",
   "role": "Research Assistant I",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 13,
   "name": "Andie",
@@ -104,7 +116,8 @@ export const mockDataTeam =[
   "age": 52,
   "phone": "917-999-0573",
   "role": "Human Resources Manager",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 14,
   "name": "Chaddie",
@@ -112,7 +125,8 @@ export const mockDataTeam =[
   "age": 34,
   "phone": "405-805-6137",
   "role": "Human Resources Assistant II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 15,
   "name": "Gertrudis",
@@ -120,7 +134,8 @@ export const mockDataTeam =[
   "age": 42,
   "phone": "321-733-3208",
   "role": "VP Marketing",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 16,
   "name": "Sashenka",
@@ -128,7 +143,8 @@ export const mockDataTeam =[
   "age": 61,
   "phone": "202-420-0252",
   "role": "VP Accounting",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 17,
   "name": "Kirby",
@@ -136,7 +152,8 @@ export const mockDataTeam =[
   "age": 24,
   "phone": "571-430-8919",
   "role": "Accounting Assistant II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 18,
   "name": "Dani",
@@ -144,7 +161,8 @@ export const mockDataTeam =[
   "age": 39,
   "phone": "951-867-1792",
   "role": "Director of Sales",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 19,
   "name": "Morrie",
@@ -152,7 +170,8 @@ export const mockDataTeam =[
   "age": 50,
   "phone": "339-648-4725",
   "role": "Structural Analysis Engineer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'admin',
 }, {
   "id": 20,
   "name": "Blake",
@@ -160,7 +179,8 @@ export const mockDataTeam =[
   "age": 26,
   "phone": "405-349-0844",
   "role": "Structural Analysis Engineer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'admin',
 }, {
   "id": 21,
   "name": "Twila",
@@ -168,7 +188,8 @@ export const mockDataTeam =[
   "age": 64,
   "phone": "843-534-1349",
   "role": "Account Coordinator",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 22,
   "name": "Ellary",
@@ -176,7 +197,8 @@ export const mockDataTeam =[
   "age": 29,
   "phone": "415-169-1180",
   "role": "Nurse",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 23,
   "name": "Chuck",
@@ -184,7 +206,8 @@ export const mockDataTeam =[
   "age": 28,
   "phone": "212-685-2249",
   "role": "Nuclear Power Engineer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 24,
   "name": "Samara",
@@ -192,7 +215,8 @@ export const mockDataTeam =[
   "age": 40,
   "phone": "626-603-7607",
   "role": "Geologist II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 25,
   "name": "Mame",
@@ -200,7 +224,8 @@ export const mockDataTeam =[
   "age": 32,
   "phone": "801-465-5923",
   "role": "Physical Therapy Assistant",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 26,
   "name": "Borden",
@@ -208,7 +233,8 @@ export const mockDataTeam =[
   "age": 58,
   "phone": "702-456-4048",
   "role": "Sales Associate",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 27,
   "name": "Kiele",
@@ -216,7 +242,8 @@ export const mockDataTeam =[
   "age": 44,
   "phone": "907-374-7969",
   "role": "Internal Auditor",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 28,
   "name": "Austin",
@@ -224,7 +251,8 @@ export const mockDataTeam =[
   "age": 55,
   "phone": "831-330-8256",
   "role": "Nurse Practicioner",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 29,
   "name": "Llywellyn",
@@ -232,7 +260,8 @@ export const mockDataTeam =[
   "age": 33,
   "phone": "516-565-4573",
   "role": "Accountant II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 30,
   "name": "Kip",
@@ -240,7 +269,8 @@ export const mockDataTeam =[
   "age": 29,
   "phone": "210-140-3282",
   "role": "Account Representative IV",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 31,
   "name": "Fulvia",
@@ -248,7 +278,8 @@ export const mockDataTeam =[
   "age": 58,
   "phone": "915-146-7298",
   "role": "Chemical Engineer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 32,
   "name": "Haydon",
@@ -256,7 +287,8 @@ export const mockDataTeam =[
   "age": 44,
   "phone": "702-887-4039",
   "role": "Research Assistant I",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 33,
   "name": "Stacia",
@@ -264,7 +296,8 @@ export const mockDataTeam =[
   "age": 39,
   "phone": "513-602-7718",
   "role": "Quality Engineer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 34,
   "name": "Laurena",
@@ -272,7 +305,8 @@ export const mockDataTeam =[
   "age": 43,
   "phone": "718-829-8568",
   "role": "Senior Developer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 35,
   "name": "Ninette",
@@ -280,7 +314,8 @@ export const mockDataTeam =[
   "age": 24,
   "phone": "615-747-0853",
   "role": "Senior Financial Analyst",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 36,
   "name": "Cecile",
@@ -288,7 +323,8 @@ export const mockDataTeam =[
   "age": 37,
   "phone": "361-400-6145",
   "role": "Staff Accountant IV",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 37,
   "name": "Mercie",
@@ -296,7 +332,8 @@ export const mockDataTeam =[
   "age": 37,
   "phone": "954-214-0925",
   "role": "Assistant Manager",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 38,
   "name": "Gayel",
@@ -304,7 +341,8 @@ export const mockDataTeam =[
   "age": 39,
   "phone": "260-548-6872",
   "role": "Software Test Engineer III",
-  "location": "United States"
+  "location": "United States",
+  'access': 'manager',
 }, {
   "id": 39,
   "name": "Peder",
@@ -312,7 +350,8 @@ export const mockDataTeam =[
   "age": 40,
   "phone": "407-291-4346",
   "role": "Web Developer II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 40,
   "name": "Murielle",
@@ -320,7 +359,8 @@ export const mockDataTeam =[
   "age": 43,
   "phone": "850-356-9582",
   "role": "Web Designer II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 41,
   "name": "Opaline",
@@ -328,7 +368,8 @@ export const mockDataTeam =[
   "age": 34,
   "phone": "316-559-2568",
   "role": "Compensation Analyst",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 42,
   "name": "Wileen",
@@ -336,7 +377,8 @@ export const mockDataTeam =[
   "age": 56,
   "phone": "330-706-0374",
   "role": "Tax Accountant",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 43,
   "name": "Shelbi",
@@ -344,7 +386,8 @@ export const mockDataTeam =[
   "age": 43,
   "phone": "480-320-9619",
   "role": "Internal Auditor",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 44,
   "name": "Siegfried",
@@ -352,7 +395,8 @@ export const mockDataTeam =[
   "age": 42,
   "phone": "801-389-5306",
   "role": "Sales Associate",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 45,
   "name": "Antoine",
@@ -360,7 +404,8 @@ export const mockDataTeam =[
   "age": 59,
   "phone": "330-345-3722",
   "role": "Software Consultant",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 46,
   "name": "Nance",
@@ -368,7 +413,8 @@ export const mockDataTeam =[
   "age": 26,
   "phone": "804-170-7936",
   "role": "Accounting Assistant II",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 47,
   "name": "Lowell",
@@ -376,7 +422,8 @@ export const mockDataTeam =[
   "age": 45,
   "phone": "355-684-6548",
   "role": "Web Developer II",
-  "location": "United Kingdom"
+  "location": "United Kingdom",
+  'access': 'user',
 }, {
   "id": 48,
   "name": "Willie",
@@ -384,7 +431,8 @@ export const mockDataTeam =[
   "age": 62,
   "phone": "682-167-0637",
   "role": "Technical Writer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 49,
   "name": "Sybila",
@@ -392,7 +440,8 @@ export const mockDataTeam =[
   "age": 23,
   "phone": "913-137-5676",
   "role": "Quality Engineer",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }, {
   "id": 50,
   "name": "Gibbie",
@@ -400,6 +449,7 @@ export const mockDataTeam =[
   "age": 27,
   "phone": "901-720-0479",
   "role": "Nurse",
-  "location": "United States"
+  "location": "United States",
+  'access': 'user',
 }]
 
