@@ -453,6 +453,7 @@ export const mockDataTeam =[
   'access': 'user',
 }]
 
+/*-----------------------------------------------------------------*/
 
 export const mockDataContacts =[
 {
@@ -955,5 +956,219 @@ export const mockDataContacts =[
   "country": "United States",
   "zipcode": "17121",
   "registrarId": "rTC12Vn3Bq5EIEs"
-}
-]
+}]
+
+/*-----------------------------------------------------------------*/
+
+export const mockDataInvoices =[
+{
+  "id": 1,
+  "name": "Darill Clench",
+  "email": "dclench0@cornell.edu",
+  "phone": "585-544-1013",
+  "cost": 9018.59,
+  "date": "9/2/2023"
+}, {
+  "id": 2,
+  "name": "Paxton Keirl",
+  "email": "pkeirl1@apache.org",
+  "phone": "797-310-3637",
+  "cost": 6386.66,
+  "date": "11/29/2022"
+}, {
+  "id": 3,
+  "name": "Isahella Fetters",
+  "email": "ifetters2@weather.com",
+  "phone": "515-909-6783",
+  "cost": 7813.06,
+  "date": "2/10/2021"
+}, {
+  "id": 4,
+  "name": "Ramsey Roles",
+  "email": "rroles3@artisteer.com",
+  "phone": "454-143-7420",
+  "cost": 7515.2,
+  "date": "5/22/2022"
+}, {
+  "id": 5,
+  "name": "Chevalier Wynch",
+  "email": "cwynch4@elpais.com",
+  "phone": "871-814-2695",
+  "cost": 1950.8,
+  "date": "9/28/2023"
+}, {
+  "id": 6,
+  "name": "Heinrik Pattemore",
+  "email": "hpattemore5@booking.com",
+  "phone": "204-985-2448",
+  "cost": 7035.26,
+  "date": "2/11/2022"
+}, {
+  "id": 7,
+  "name": "Abigail Callendar",
+  "email": "acallendar6@usda.gov",
+  "phone": "953-892-9500",
+  "cost": 5208.75,
+  "date": "11/7/2023"
+}, {
+  "id": 8,
+  "name": "Atalanta Dilks",
+  "email": "adilks7@about.com",
+  "phone": "258-195-2922",
+  "cost": 7068.82,
+  "date": "1/14/2022"
+}, {
+  "id": 9,
+  "name": "Margeaux Cocklin",
+  "email": "mcocklin8@ftc.gov",
+  "phone": "154-503-4166",
+  "cost": 7864.98,
+  "date": "5/19/2022"
+}, {
+  "id": 10,
+  "name": "Clemmie Metzel",
+  "email": "cmetzel9@tripod.com",
+  "phone": "685-279-5491",
+  "cost": 1294.61,
+  "date": "1/31/2022"
+}, {
+  "id": 11,
+  "name": "Callida Habberjam",
+  "email": "chabberjama@lycos.com",
+  "phone": "543-909-2123",
+  "cost": 5346.56,
+  "date": "6/7/2022"
+}, {
+  "id": 12,
+  "name": "Robenia Aiston",
+  "email": "raistonb@clickbank.net",
+  "phone": "467-657-6419",
+  "cost": 9978.88,
+  "date": "7/26/2022"
+}, {
+  "id": 13,
+  "name": "Kate Linkin",
+  "email": "klinkinc@nydailynews.com",
+  "phone": "506-828-6367",
+  "cost": 1749.61,
+  "date": "5/14/2022"
+}, {
+  "id": 14,
+  "name": "Fionnula Figgures",
+  "email": "ffigguresd@addtoany.com",
+  "phone": "927-685-2679",
+  "cost": 6384.13,
+  "date": "12/19/2020"
+}, {
+  "id": 15,
+  "name": "Aura Critcher",
+  "email": "acritchere@constantcontact.com",
+  "phone": "200-337-7676",
+  "cost": 1202.74,
+  "date": "4/1/2021"
+}, {
+  "id": 16,
+  "name": "Dotty Kenealy",
+  "email": "dkenealyf@hud.gov",
+  "phone": "444-498-3596",
+  "cost": 3456.04,
+  "date": "12/17/2022"
+}, {
+  "id": 17,
+  "name": "Margalit Scrivin",
+  "email": "mscriving@dell.com",
+  "phone": "158-990-7774",
+  "cost": 8135.94,
+  "date": "3/8/2020"
+}, {
+  "id": 18,
+  "name": "Vilma Tipple",
+  "email": "vtippleh@livejournal.com",
+  "phone": "834-988-5209",
+  "cost": 8213.37,
+  "date": "1/15/2022"
+}, {
+  "id": 19,
+  "name": "Farley Dawbery",
+  "email": "fdawberyi@cargocollective.com",
+  "phone": "345-205-8208",
+  "cost": 5119.99,
+  "date": "1/22/2020"
+}, {
+  "id": 20,
+  "name": "Laureen Cassel",
+  "email": "lcasselj@nydailynews.com",
+  "phone": "241-699-2349",
+  "cost": 1085.05,
+  "date": "1/20/2022"
+}, {
+  "id": 21,
+  "name": "Tara Palfreman",
+  "email": "tpalfremank@geocities.jp",
+  "phone": "515-940-3586",
+  "cost": 2091.4,
+  "date": "8/21/2020"
+}, {
+  "id": 22,
+  "name": "Birk Basson",
+  "email": "bbassonl@walmart.com",
+  "phone": "937-326-8714",
+  "cost": 9846.63,
+  "date": "8/21/2020"
+}, {
+  "id": 23,
+  "name": "Fred Matuszewski",
+  "email": "fmatuszewskim@bloomberg.com",
+  "phone": "549-783-0620",
+  "cost": 8535.67,
+  "date": "10/7/2023"
+}, {
+  "id": 24,
+  "name": "Neill Randales",
+  "email": "nrandalesn@time.com",
+  "phone": "989-143-4919",
+  "cost": 4553.2,
+  "date": "5/6/2020"
+}, {
+  "id": 25,
+  "name": "Demetre Kiffe",
+  "email": "dkiffeo@nifty.com",
+  "phone": "129-223-0558",
+  "cost": 5683.48,
+  "date": "9/23/2020"
+}, {
+  "id": 26,
+  "name": "Clementina Pellatt",
+  "email": "cpellattp@mapquest.com",
+  "phone": "763-949-4005",
+  "cost": 9345.43,
+  "date": "3/6/2023"
+}, {
+  "id": 27,
+  "name": "Fanya Perrat",
+  "email": "fperratq@gov.uk",
+  "phone": "410-806-9426",
+  "cost": 1853.68,
+  "date": "6/26/2021"
+}, {
+  "id": 28,
+  "name": "Muffin Pellman",
+  "email": "mpellmanr@bing.com",
+  "phone": "986-341-3632",
+  "cost": 3174.71,
+  "date": "4/1/2022"
+}, {
+  "id": 29,
+  "name": "Thaddus Pavolini",
+  "email": "tpavolinis@economist.com",
+  "phone": "902-589-9321",
+  "cost": 5326.55,
+  "date": "4/14/2023"
+}, {
+  "id": 30,
+  "name": "Richard Favell",
+  "email": "rfavellt@bravesites.com",
+  "phone": "222-430-2971",
+  "cost": 2639.43,
+  "date": "11/2/2021"
+}]
