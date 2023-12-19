@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Header from '@/components/Header';
-import { Box, colors, useTheme } from '@mui/material';
+import { Box, colors, Typography, useTheme } from '@mui/material';
 import { DataGrid, GridColDef } from '@mui/x-data-grid'
 import { mockDataInvoices } from '../../../../data/mockData'
 import { tokens } from '../../../../app/theme';
@@ -20,14 +20,20 @@ const Invoices = (props: Props) => {
     { field:'name', headerName:'Name', flex:1},
     { field:'phone', headerName:'Phone Number', flex:1},
     { field:'email', headerName:'Email', flex:1},
-    { field:'cost', headerName:'Cost', flex:1},
+    { field:'cost', headerName:'Cost', flex:1, 
+      renderCell: (params) => (
+        <Typography color={colors.greenAccent[300]} fontWeight='bold'>
+          ${params.row.cost}
+        </Typography>
+      )
+    },
     { field:'date', headerName:'Date', flex:1},
     //{ field:'', headerName:''}
   ]
 
   return (
     <Box sx={{ height:'400', width:'100%' }}>
-      <Header title='Contacts' subtitle='Welcome to your contacts manager tool' />
+      <Header title='Invoices' subtitle='Welcome to your list of clients' />
       <Box
         m='40px 0 0 0'
         height='75vh'

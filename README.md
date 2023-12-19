@@ -54,7 +54,13 @@ npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/i
 
 Looking to better understand, visualize, and communicate your data with others or personal enrichment?
 
-The amount of raw data collected on a daily basis can be intimidating for some.
+With the unimaginable volume of raw data being generated and waiting to be collected on the daily, one needs a way to transform these raw data into a more digestible and organized fashion. For many trying to make sense of the monotone and unimaginative format of raw data may seem intimidating for some.
+
+There's a whole new horizon beyond using excel to organize your dataset. Often times we find ourselves being too fixated on using a tool just because it works. Some take the mantra of "If it ain't broken, don't fix it" too rigidly.
+
+The importance of exploring alternative methods of visualizing your data to uncover new insights is an experience that should not be disregarded.
+
+By using this data visualizing tool, you will eventually understand why it's <u><b>T</b></u>he <u><b>O</b></u>nly <u><b>A</b></u>nalytics <u><b>D</b></u>ashboard <u><b>A</b></u>nyone <u><b>N</b></u>eeds
 
 
 ## Built With
@@ -90,6 +96,7 @@ List of wonderful resources and credits to:
 * [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 * [Full Calendar](https://fullcalendar.io/docs) - lightweight calendar
 * [Nivo](https://nivo.rocks/) - data visualization components
+* [Mockaroo](https://www.mockaroo.com/) - generate mock data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
