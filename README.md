@@ -60,7 +60,7 @@ There's a whole new horizon beyond using excel to organize your dataset. Often t
 
 The importance of exploring alternative methods of visualizing your data to uncover new insights is an experience that should not be disregarded.
 
-By using this data visualizing tool, you will eventually understand why it's <u><b>T</b></u>he <u><b>O</b></u>nly <u><b>A</b></u>nalytics <u><b>D</b></u>ashboard <u><b>A</b></u>nyone <u><b>N</b></u>eeds
+By using this data visualizing tool, you will eventually understand why it's <ins><b>T</b></ins>he <ins><b>O</b></ins>nly <ins><b>A</b></ins>nalytics <ins><b>D</b></ins>ashboard <ins><b>A</b></ins>nyone <ins><b>N</b></ins>eeds
 
 
 ## Built With

@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import { Box, Button, TextField } from '@mui/material';
 import { Formik } from 'formik';
@@ -43,7 +45,42 @@ const Form = (props: Props) => {
         initialValues={initialValues}
         validationSchema={userSchema}
       >
-
+        {({ values, errors, touched, handleBlur, handleChange, handleSubmit}) => (
+          <form onSubmit={handleSubmit}>
+            <Box
+              display='grid'
+              gap='30px'
+              gridTemplateColumns='repeat(4, minmax(0, 1fr))'
+            >
+              <TextField 
+                fullWidth
+                variant='filled'
+                type='text'
+                label='First Name'
+                onBlur={handleBlur}
+                onChange={handleChange}
+                value={values.firstName}
+                name='firstName'
+                error={!!touched.firstName && !!errors.firstName}
+                helperText={touched.firstName && errors.firstName}
+                sx={{ gridColumn: 'span 2' }}
+              />
+              <TextField 
+                fullWidth
+                variant='filled'
+                type='text'
+                label='Last Name'
+                onBlur={handleBlur}
+                onChange={handleChange}
+                value={values.lastName}
+                name='lastName'
+                error={!!touched.lastName && !!errors.lastName}
+                helperText={touched.lastName && errors.lastName}
+                sx={{ gridColumn: 'span 2' }}
+              />
+            </Box>
+          </form>
+        )}
       </Formik>
     </Box>
   )
