@@ -36,7 +36,7 @@ export default function RootLayout({
 
             <Topbar />
             
-            <main className='bg-yellow-300'>
+            <main className='bg-yellow-300 h-full'>
               <section>
                 {children}
               </section>
