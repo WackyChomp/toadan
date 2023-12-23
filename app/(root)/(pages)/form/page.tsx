@@ -21,6 +21,7 @@ const initialValues = {
   contact: '',
   address1: '',
   address2: '',
+  messageNotes: '',
 }
 
 // Schema
@@ -31,6 +32,7 @@ const userSchema = yup.object().shape({
   contact: yup.string().required('required'),
   address1: yup.string().required('required'),
   address2: yup.string().required('required'),
+  messageNotes: yup.string().required('required'),
 })
 
 
@@ -133,6 +135,20 @@ const Form = (props: Props) => {
                 helperText={touched.address2 && errors.address2}
                 sx={{ gridColumn: 'span 4' }}
               />
+              <TextField 
+                fullWidth
+                variant='filled'
+                type='text'
+                label='Message / Notes'
+                onBlur={handleBlur}
+                onChange={handleChange}
+                value={values.messageNotes}
+                name='messageNotes'
+                error={!!touched.messageNotes && !!errors.messageNotes}
+                helperText={touched.messageNotes && errors.messageNotes}
+                sx={{ gridColumn: 'span 4' }}
+                multiline
+              />
               {/* <TextField 
                 fullWidth
                 variant='filled'
@@ -146,6 +162,11 @@ const Form = (props: Props) => {
                 helperText={touched.INSERT && errors.lastName}
                 sx={{ gridColumn: 'span 2' }}
               /> */}
+            </Box>
+            <Box display='flex' justifyContent='start' mt='3em'>
+              <Button type='submit' color='secondary' variant='contained'>
+                Create New User
+              </Button>
             </Box>
           </form>
         )}

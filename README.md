@@ -74,11 +74,36 @@ Here are some frameworks/libraries used in this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites / Setup
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/WackyChomp/toadan.git
+   ```
+2. Install NPM packages into root directory or same directory as "<u>package.json</u>"
+   ```sh
+   npm install
+   ```
+3. Running on local computer
+   ```
+    [Run this in root directory] --- npm run dev
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 ## Roadmap
-<h3>Features (WIP)</h3>
+<h3>Features (WIP Todo)</h3>
 
 - [] Establish dashboard layout
 - [] Ability to toggle between light and dark mode
+- [] Create a form page to add new users to admin app
+- [] Implement lightweight calendar component
 - [] Create FAQ for brief description and common inquiries
 
 
