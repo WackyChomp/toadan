@@ -63,7 +63,7 @@ const LeftSidebar = (props: Props) => {
     <Box>
 
       <Sidebar collapsed={isCollapsed} className='bg-red-800'>
-      <div className='flex justify-center'>LeftSidebar</div> 
+      {/* <div className='flex justify-center'>LeftSidebar</div>  */}
 
         <Menu>
           {/* Logo and Menu Icon */}
@@ -71,7 +71,7 @@ const LeftSidebar = (props: Props) => {
             onClick={() => setIsCollapsed(!isCollapsed)}
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
             style={{
-              margin: "10px 0 20px 0",
+              margin: "10px 0 10px 0",
               color: 'blue',
             }}
           >
@@ -93,7 +93,7 @@ const LeftSidebar = (props: Props) => {
           </MenuItem>
 
           {!isCollapsed && (
-            <Box mb="25px">
+            <Box mb="0.5em">
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="profile-user"
