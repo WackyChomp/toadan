@@ -21,8 +21,10 @@ const Topbar = (props: Props) => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box display='flex' backgroundColor='crimson' justifyContent='space-between' p={2}>
-      <div>Topbar</div>
+    <Box display='flex' backgroundColor='crimson' justifyContent='space-between' p={1.5}>
+
+      {/* <div>Topbar</div> */}
+
       {/* Search Bar */}
       <Box display='flex' backgroundColor={colors.primary[600]} borderRadius='5px'>
         <InputBase sx={{ ml:2, flex:1 }} placeholder='Search...' />
