@@ -1,24 +1,47 @@
+'use client'
+
 import React from 'react';
 import { ResponsiveBar } from '@nivo/bar';
 import { tokens } from '@/app/theme';
-import { mockBarData } from '@/data/mockData';
+import { mockBarData1 as data } from '@/data/mockData';
+import { useTheme } from '@mui/material';
 
 
 type Props = {}
 
 const BarChart = (props: Props) => {
+	const theme = useTheme();
+	const colors = tokens(theme.palette.mode);
 
   return (
     <ResponsiveBar
 			data={data}
-			keys={[
-				'hot dog',
-				'burger',
-				'sandwich',
-				'kebab',
-				'fries',
-				'donut'
-			]}
+			theme={{
+				axis: {
+					domain: {
+						line: {
+							stroke: colors.grey[300]
+						}
+					},
+					legend: {
+						text: {
+							fill: colors.grey[300]
+						}
+					},
+					ticks: {
+						line: {
+							stroke: colors.grey[300],
+							strokeWidth: 1
+						},
+					},
+				},
+				legends: {
+					text: {
+						fill: colors.grey[200],
+					},
+				},
+			}}
+			keys={[	'hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut' ]}
 			indexBy="country"
 			margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
 			padding={0.3}
@@ -47,25 +70,18 @@ const BarChart = (props: Props) => {
 			]}
 			fill={[
 				{
-					match: {
-							id: 'fries'
-					},
+					match: { id: 'fries' },
 					id: 'dots'
 				},
 				{
-					match: {
-							id: 'sandwich'
-					},
+					match: { id: 'sandwich' },
 					id: 'lines'
 				}
 			]}
 			borderColor={{
 				from: 'color',
 				modifiers: [
-					[
-						'darker',
-						1.6
-					]
+					[	'darker',	1.6	]
 				]
 			}}
 			axisTop={null}
@@ -93,35 +109,30 @@ const BarChart = (props: Props) => {
 			labelTextColor={{
 				from: 'color',
 				modifiers: [
-					[
-						'darker',
-						1.6
-					]
+					[	'darker',	1.6	]
 				]
 			}}
 			legends={[
-					{
-						dataFrom: 'keys',
-						anchor: 'bottom-right',
-						direction: 'column',
-						justify: false,
-						translateX: 120,
-						translateY: 0,
-						itemsSpacing: 2,
-						itemWidth: 100,
-						itemHeight: 20,
-						itemDirection: 'left-to-right',
-						itemOpacity: 0.85,
-						symbolSize: 20,
-						effects: [
-							{
-								on: 'hover',
-								style: {
-									itemOpacity: 1
-								}
-							}
-						]
-					}
+				{
+					dataFrom: 'keys',
+					anchor: 'bottom-right',
+					direction: 'column',
+					justify: false,
+					translateX: 120,
+					translateY: 0,
+					itemsSpacing: 2,
+					itemWidth: 100,
+					itemHeight: 20,
+					itemDirection: 'left-to-right',
+					itemOpacity: 0.85,
+					symbolSize: 20,
+					effects: [
+						{
+							on: 'hover',
+							style: { itemOpacity: 1	}
+						}
+					]
+				}
 			]}
 			role="application"
 			ariaLabel="Nivo bar chart demo"
