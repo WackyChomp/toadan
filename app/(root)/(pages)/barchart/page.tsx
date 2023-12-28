@@ -7,7 +7,7 @@ type Props = {}
 
 const Bar = (props: Props) => {
   return (
-    <Box>
+    <Box p='20px'>
       <Header title='Bar Chart' subtitle='Market Share Breakdown' />
 
       <Box height='70vh'>
