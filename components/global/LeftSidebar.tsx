@@ -121,15 +121,16 @@ const LeftSidebar = (props: Props) => {
 
           {/* Menu Items */}
           <Box paddingLeft={ isCollapsed ? undefined :'6%' }>
-            <HomeOutlinedIcon />
-            <PeopleOutlinedIcon />
-            <ContactsOutlinedIcon />
-            <ReceiptOutlinedIcon />
-            <PersonOutlinedIcon />
-            <CalendarTodayOutlinedIcon />
-            <BarChartOutlinedIcon />
-            <TimelineOutlinedIcon />
-            <MapOutlinedIcon />
+            <a href='/'><HomeOutlinedIcon /></a>
+            <a href='/team'><PeopleOutlinedIcon /></a>
+            <a href='/contacts'><ContactsOutlinedIcon /></a>
+            <a href='/invoices'><ReceiptOutlinedIcon /></a>
+            <a href='/form'><PersonOutlinedIcon /></a>
+            <a href='/calendar'><CalendarTodayOutlinedIcon /></a>
+            <a href='/barchart'><BarChartOutlinedIcon /></a>
+            <a href='/'><TimelineOutlinedIcon /></a>
+            <a href='/'><MapOutlinedIcon /></a>
+
 
             <Typography className='text-blue-500 border border-lime-600'>
               Business

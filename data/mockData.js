@@ -1353,3 +1353,39 @@ export const mockBarData2 = [
       "donutColor": "hsl(212, 70%, 50%)"
     }
 ]
+
+
+/*-----------------------------------------------------------------*/
+
+export const mockPieData1 = [
+  {
+    "id": "rust",
+    "label": "rust",
+    "value": 556,
+    "color": "hsl(144, 70%, 50%)"
+  },
+  {
+    "id": "python",
+    "label": "python",
+    "value": 248,
+    "color": "hsl(211, 70%, 50%)"
+  },
+  {
+    "id": "elixir",
+    "label": "elixir",
+    "value": 376,
+    "color": "hsl(244, 70%, 50%)"
+  },
+  {
+    "id": "sass",
+    "label": "sass",
+    "value": 403,
+    "color": "hsl(26, 70%, 50%)"
+  },
+  {
+    "id": "css",
+    "label": "css",
+    "value": 525,
+    "color": "hsl(233, 70%, 50%)"
+  }
+]
