@@ -14,7 +14,7 @@ const Header = ( {title, subtitle}: HeaderProps) => {
   return (
     <Box>
       <Typography 
-        variant='h2' 
+        variant='h3' 
         color={colors.grey[100]} 
         fontWeight='bold'
         sx={{ mb:'5px' }}
