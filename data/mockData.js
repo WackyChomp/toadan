@@ -1389,3 +1389,280 @@ export const mockPieData1 = [
     "color": "hsl(233, 70%, 50%)"
   }
 ]
+
+
+/*-----------------------------------------------------------------*/
+
+
+export const mockLineData1 = [
+  {
+    "id": "japan",
+    "color": "hsl(32, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 92
+      },
+      {
+        "x": "helicopter",
+        "y": 25
+      },
+      {
+        "x": "boat",
+        "y": 114
+      },
+      {
+        "x": "train",
+        "y": 190
+      },
+      {
+        "x": "subway",
+        "y": 107
+      },
+      {
+        "x": "bus",
+        "y": 77
+      },
+      {
+        "x": "car",
+        "y": 247
+      },
+      {
+        "x": "moto",
+        "y": 92
+      },
+      {
+        "x": "bicycle",
+        "y": 246
+      },
+      {
+        "x": "horse",
+        "y": 45
+      },
+      {
+        "x": "skateboard",
+        "y": 152
+      },
+      {
+        "x": "others",
+        "y": 188
+      }
+    ]
+  },
+  {
+    "id": "washington",
+    "color": "hsl(319, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 128
+      },
+      {
+        "x": "helicopter",
+        "y": 18
+      },
+      {
+        "x": "boat",
+        "y": 227
+      },
+      {
+        "x": "train",
+        "y": 179
+      },
+      {
+        "x": "subway",
+        "y": 52
+      },
+      {
+        "x": "bus",
+        "y": 98
+      },
+      {
+        "x": "car",
+        "y": 1
+      },
+      {
+        "x": "moto",
+        "y": 56
+      },
+      {
+        "x": "bicycle",
+        "y": 69
+      },
+      {
+        "x": "horse",
+        "y": 205
+      },
+      {
+        "x": "skateboard",
+        "y": 275
+      },
+      {
+        "x": "others",
+        "y": 220
+      }
+    ]
+  },
+  {
+    "id": "newyork",
+    "color": "hsl(138, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 9
+      },
+      {
+        "x": "helicopter",
+        "y": 257
+      },
+      {
+        "x": "boat",
+        "y": 68
+      },
+      {
+        "x": "train",
+        "y": 169
+      },
+      {
+        "x": "subway",
+        "y": 257
+      },
+      {
+        "x": "bus",
+        "y": 121
+      },
+      {
+        "x": "car",
+        "y": 131
+      },
+      {
+        "x": "moto",
+        "y": 210
+      },
+      {
+        "x": "bicycle",
+        "y": 49
+      },
+      {
+        "x": "horse",
+        "y": 48
+      },
+      {
+        "x": "skateboard",
+        "y": 16
+      },
+      {
+        "x": "others",
+        "y": 75
+      }
+    ]
+  },
+  {
+    "id": "texas",
+    "color": "hsl(134, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 238
+      },
+      {
+        "x": "helicopter",
+        "y": 147
+      },
+      {
+        "x": "boat",
+        "y": 278
+      },
+      {
+        "x": "train",
+        "y": 193
+      },
+      {
+        "x": "subway",
+        "y": 136
+      },
+      {
+        "x": "bus",
+        "y": 69
+      },
+      {
+        "x": "car",
+        "y": 83
+      },
+      {
+        "x": "moto",
+        "y": 170
+      },
+      {
+        "x": "bicycle",
+        "y": 234
+      },
+      {
+        "x": "horse",
+        "y": 159
+      },
+      {
+        "x": "skateboard",
+        "y": 21
+      },
+      {
+        "x": "others",
+        "y": 145
+      }
+    ]
+  },
+  {
+    "id": "ohio",
+    "color": "hsl(325, 70%, 50%)",
+    "data": [
+      {
+        "x": "plane",
+        "y": 172
+      },
+      {
+        "x": "helicopter",
+        "y": 57
+      },
+      {
+        "x": "boat",
+        "y": 287
+      },
+      {
+        "x": "train",
+        "y": 134
+      },
+      {
+        "x": "subway",
+        "y": 287
+      },
+      {
+        "x": "bus",
+        "y": 281
+      },
+      {
+        "x": "car",
+        "y": 63
+      },
+      {
+        "x": "moto",
+        "y": 259
+      },
+      {
+        "x": "bicycle",
+        "y": 197
+      },
+      {
+        "x": "horse",
+        "y": 94
+      },
+      {
+        "x": "skateboard",
+        "y": 75
+      },
+      {
+        "x": "others",
+        "y": 192
+      }
+    ]
+  }
+]
