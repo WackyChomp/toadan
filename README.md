@@ -103,9 +103,9 @@ Here are some frameworks/libraries used in this project:
 - [] Establish dashboard layout
 - [] Ability to toggle between light and dark mode
 - [] Create a form page to add new users to admin app
-- [] Implement lightweight calendar component
-- [] Create FAQ for brief description and common inquiries
-
+- [x] Implement lightweight calendar component
+- [x] Create FAQ for brief description and common inquiries
+- [] Implement data visualizations components with with Nivo
 
 
 <!-- ACKNOWLEDGMENTS -->

@@ -128,8 +128,8 @@ const LeftSidebar = (props: Props) => {
             <a href='/form'><PersonOutlinedIcon /></a>
             <a href='/calendar'><CalendarTodayOutlinedIcon /></a>
             <a href='/barchart'><BarChartOutlinedIcon /></a>
-            <a href='/'><TimelineOutlinedIcon /></a>
-            <a href='/'><MapOutlinedIcon /></a>
+            <a href='/line'><TimelineOutlinedIcon /></a>
+            <a href='/geography'><MapOutlinedIcon /></a>
 
 
             <Typography className='text-blue-500 border border-lime-600'>
