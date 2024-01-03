@@ -40,7 +40,8 @@ npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/i
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites-installation">Prerequisites / Installation</a></li>
+        <li><a href="#installations">Installations</a></li>
+        <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -50,8 +51,9 @@ npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/i
   </ol>
 </details>
 
-<br><br>
+<br>
 
+## About The Project
 Looking to better understand, visualize, and communicate your data with others or personal enrichment?
 
 With the unimaginable volume of raw data being generated and waiting to be collected on the daily, one needs a way to transform these raw data into a more digestible and organized fashion. For many trying to make sense of the monotone and unimaginative format of raw data may seem intimidating for some.
@@ -78,8 +80,14 @@ Here are some frameworks/libraries used in this project:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites / Setup
+### Installations
+1. Libraries and packages used
+    ```sh
+    npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom@6 react-pro-sidebar formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
+    ```
 
+### Setup
+Quickly running locally
 1. Clone the repo
    ```sh
    git clone https://github.com/WackyChomp/toadan.git
